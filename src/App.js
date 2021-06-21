@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import TopMenuBar from "./component/topMenuBar/index";
+import AboutArea from "./component/aboutArea";
+import HistoryArea from "./component/historyArea";
+import ContactArea from "./component/contactArea";
+import HomeArea from "./component/homeArea";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <header id="header"><title>포폴</title></header> */}
+      <TopMenuBar />
+      <div id="body">
+        <HomeArea />
+        <AboutArea />
+        <HistoryArea />
+        <ContactArea />
+      </div>
+      <div id="footer">
+        <div id="footer-area"></div>
+      </div>
     </div>
   );
 }
