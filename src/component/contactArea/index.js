@@ -7,7 +7,7 @@ function ContactArea() {
         <h1 id="contact-title">title</h1>
         <h1 id="contact-address">연락처</h1>
         <a href="https://github.com/WoongL">
-          <img id="contact-gitlink" src="/images/github-icon.svg" />
+          <img id="contact-gitlink" src="/images/github-icon.png" />
         </a>
       </div>
     </div>
