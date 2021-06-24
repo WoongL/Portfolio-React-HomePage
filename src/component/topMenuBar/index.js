@@ -1,7 +1,6 @@
 import "./index.css";
 
 function TopMenuBar() {
-  console.log("d");
   return (
     <div id="top-menu">
       <a href="#home-area" className="top-menuitem">

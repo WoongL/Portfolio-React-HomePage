@@ -8,8 +8,8 @@ import HomeArea from "./component/homeArea";
 function App() {
   return (
     <div>
-      {/* <header id="header"><title>포폴</title></header> */}
       <TopMenuBar />
+
       <div id="body">
         <HomeArea />
         <AboutArea />

@@ -1,4 +1,19 @@
 #home-area {
   height: 100vh;
-  background-color: red;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.85);
+  text-align: center;
+}
+.home-Typist {
+  height: 100vh;
+}
+#home-img {
+  margin-top: 30vh;
+  margin-bottom: 5vh;
+  height: 270px;
+  object-fit: cover;
+}
+#home-text {
+  color: white;
+  font-size: 32px;
 }

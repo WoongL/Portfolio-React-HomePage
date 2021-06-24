@@ -1,4 +1,23 @@
 #about-area {
-  height: 100vh;
-  background-color: green;
+  height: 40vh;
+  width: 100vw;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-wrap: wrap;
+}
+#about-areaName {
+  padding-top: 15vh;
+  padding-left: 15vh;
+  padding-right: 15vh;
+  font-size: 36px;
+  background-color: rgb(233, 233, 233);
+  margin: 0;
+}
+#about-textdiv {
+  padding-top: 10vh;
+  padding-left: 5vw;
+}
+#about-title {
+}
+#about-text {
 }

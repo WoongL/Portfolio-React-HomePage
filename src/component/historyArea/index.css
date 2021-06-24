@@ -1,4 +1,5 @@
 #history-area {
   height: 100vh;
-  background-color: blue;
+  width: 100vw;
+  background-color: rgb(27, 204, 27);
 }

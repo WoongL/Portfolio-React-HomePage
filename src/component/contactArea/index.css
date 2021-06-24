@@ -1,4 +1,17 @@
 #contact-area {
-  height: 100vh;
-  background-color: cyan;
+  height: 50vh;
+  width: 100vw;
+  background-color: white;
+  text-align: center;
+}
+#contact-title {
+  padding-top: 30px;
+  font-size: 42px;
+}
+#contact-address {
+  padding-bottom: 50px;
+}
+#contact-gitlink {
+  height: 100px;
+  object-fit: cover;
 }
